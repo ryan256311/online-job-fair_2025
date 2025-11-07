@@ -1,0 +1,28 @@
+.slideContainer {
+    composes: slideContainer from "./common.module.css";
+    font-family: sans-serif;
+    overflow: hidden;
+    /* 念のため */
+}
+
+/* 左右分割レイアウト */
+.mainContentArea {
+    composes: mainContentArea from "./common.module.css";
+}
+
+.leftPanel {
+    composes: leftPanel from "./common.module.css";
+}
+
+.rightPanel {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.image {
+    composes: image from "./common.module.css";
+}

@@ -1,0 +1,11 @@
+.slideContainer {
+    composes: slideContainer from "./common.module.css";
+}
+
+.slideImg{
+    height: 85vh;
+}
+
+.image {
+    composes: image from "./common.module.css";
+}

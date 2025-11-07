@@ -1,0 +1,35 @@
+.slideContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 50px solid #E33C0B;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mainContentArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: calc(60 / 1754 * 100%);
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.leftPanel {
+    width: auto;
+    height: 80vh;
+    min-width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

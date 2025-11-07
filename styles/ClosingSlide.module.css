@@ -1,0 +1,68 @@
+.slideContainer {
+    composes: slideContainer from "./common.module.css";
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; /* 上部と下部を分離 */
+    padding: 80px 0;
+}
+
+.mainContent {
+    /* 上部のテキストコンテンツ用のコンテナ */
+}
+
+.title {
+    font-size: 64px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.appreciate {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+.bodyText {
+    font-size: 32px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* --- QRコードセクション --- */
+.qrCodeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* 要素間のスペース */
+    padding-top: 40px;
+    border-top: 2px solid #eee;
+    width: 100%;
+}
+
+.surveyTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E33C0B; /* 強調色 */
+    margin: 0;
+}
+
+.surveyTitleEn {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+    margin-top: -10px; /* 日本語タイトルとの間隔を詰める */
+}
+
+.qrCodePlaceholder {
+    width: 200px; /* 少し大きめに */
+    height: 200px;
+    margin: 10px 0;
+}
+
+.surveyBody {
+    font-size: 24px;
+    color: #555;
+    margin: 0;
+}
