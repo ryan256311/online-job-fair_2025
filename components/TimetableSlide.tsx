@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/TimetableSlide.module.css';
+import { getImageUrl } from './ImageUtils';
 
 // 右側で切り替える画像のパス
 const rightImages = [
@@ -24,7 +25,7 @@ const TimetableSlide: React.FC = () => {
             <div className={styles.mainContentArea}>
                 {/* 左側パネル */}
                 <div className={styles.leftPanel}>
-                    <img src="/img/job-fair_details.jpg" alt="Job Fair Details" className={styles.image} />
+                    <img src={getImageUrl("/img/job-fair_details.jpg")} alt="Job Fair Details" className={styles.image} />
                 </div>
 
                 {/* 右側パネル */}

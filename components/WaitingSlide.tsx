@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getImageUrl } from './ImageUtils';
 import styles from '../styles/WaitingSlide.module.css';
 
 // イベント開始時刻を設定（仕様書に基づき 11月8日 13:00）
@@ -125,7 +126,7 @@ const WaitingSlide: React.FC = () => {
                         <div className={styles.qrCodeSection}>
                             <p>【タイムテーブル・操作説明 (PDF)】</p>
                             <div className={styles.qrCodePlaceholder}>
-                                {<img src="/img/qr-instruction.png" alt="QR Code" />}
+                                {<img src={getImageUrl("/img/qr-instruction.png")} alt="QR Code" />}
                             </div>
                         </div>
                     </div>

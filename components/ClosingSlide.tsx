@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/ClosingSlide.module.css';
+import { getImageUrl } from './ImageUtils';
 
 const slideContent = {
     title_01: '本日の企業説明セッションは',
@@ -25,7 +26,7 @@ const ClosingSlide: React.FC = () => {
                 <p className={styles.surveyTitle}>{slideContent.survey_title_ja}</p>
                 <p className={styles.surveyTitleEn}>{slideContent.survey_title_en}</p>
                 <div className={styles.qrCodePlaceholder}>
-                    <img src="/img/qr-finish.png" alt="Survey QR Code" style={{ width: '100%', height: '100%' }} />
+                    <img src={getImageUrl("/img/qr-finish.png")} alt="Survey QR Code" style={{ width: '100%', height: '100%' }} />
                 </div>
                 <p className={styles.surveyBody}>{slideContent.survey_body}</p>
             </div>
