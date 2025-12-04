@@ -18,14 +18,14 @@
 }
 
 .appreciate {
-    font-size: 3.00vw;
+    font-size: 2.70vw;
     font-weight: bold;
     color: #333;
     margin-bottom: 60px;
 }
 
 .bodyText {
-    font-size: 2.66vw;
+    font-size: 2.39vw;
     color: #555;
     line-height: 1.8;
 }
@@ -42,14 +42,14 @@
 }
 
 .surveyTitle {
-    font-size: 3.00vw;
+    font-size: 2.70vw;
     font-weight: bold;
     color: #E33C0B; /* 強調色 */
     margin: 0;
 }
 
 .surveyTitleEn {
-    font-size: 2.33vw;
+    font-size: 2.10vw;
     color: #333;
     margin: 0;
     margin-top: -10px; /* 日本語タイトルとの間隔を詰める */
@@ -62,7 +62,7 @@
 }
 
 .surveyBody {
-    font-size: 2.00vw;
+    font-size: 1.80vw;
     color: #555;
     margin: 0;
 }

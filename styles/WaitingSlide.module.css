@@ -38,21 +38,21 @@ body {
 
 /* --- テキスト要素の基本スタイル --- */
 .title {
-    font-size: 5.34vw;
+    font-size: 4.81vw;
     font-weight: 800;
     color: #333;
     margin-bottom: 5px;
 }
 
 .startTime {
-    font-size: 3.33vw;
+    font-size: 3.00vw;
     color: #E33C0B;
     margin-top: 0;
     margin-bottom: 0px;
 }
 
 .waitMessage {
-    font-size: 2.50vw;
+    font-size: 2.25vw;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -74,23 +74,23 @@ body {
 
 .countdownLabel {
     margin: 0;
-    font-size: 2.66vw;
+    font-size: 2.39vw;
 }
 
 .countdownTime {
-    font-size: 7.50vw;
+    font-size: 6.75vw;
     font-weight: 900;
     display: block;
 }
 
 .startingSoon {
     color: #E33C0B;
-    font-size: 4.00vw;
+    font-size: 3.60vw;
     margin: 0;
 }
 
 .studentNote {
-    font-size: 1.84vw;
+    font-size: 1.66vw;
     color: #555;
     margin-top: 20px;
     text-align: center;
@@ -105,7 +105,7 @@ body {
 }
 
 .companyNote {
-    font-size: 1.84vw;
+    font-size: 1.66vw;
     color: #777;
     line-height: 1.5;
     text-align: center;
@@ -120,7 +120,7 @@ body {
 
 .qrCodeSection p {
     margin: 0;
-    font-size: 2.33vw;
+    font-size: 2.10vw;
     font-weight: 600;
     margin-right: 20px;
 }
@@ -133,7 +133,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.00vw;
+    font-size: 0.90vw;
     color: #fff;
 }
 
