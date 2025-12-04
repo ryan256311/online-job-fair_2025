@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from '../styles/WaitingSlide.module.css';
 
 // イベント開始時刻を設定（仕様書に基づき 11月8日 13:00）
-const EVENT_START_TIME = new Date('2025-11-08T13:00:00');
+const EVENT_START_TIME = new Date('2025-11-11T16:02:21');
 
 // 左側の静的画像ファイルのパス（仮）
 // ユーザーから提供される静止画のファイルパスに置き換えてください。

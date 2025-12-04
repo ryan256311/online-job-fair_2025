@@ -29,7 +29,6 @@ const companyImagePaths = [
     '/img/company_pr/company-09.png',
     '/img/company_pr/company-10.png',
     '/img/company_pr/company-11.png',
-    '/img/company_pr/company-12.png',
     '/img/company_pr/company-13.png',
     '/img/company_pr/company-14.png',
     '/img/company_pr/company-15.png',

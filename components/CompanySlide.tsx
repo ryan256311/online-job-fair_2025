@@ -10,7 +10,7 @@ interface CompanySlideProps {
 
 const CompanySlide: React.FC<CompanySlideProps> = ({ src, slideNumber, totalSlides }) => {
     return (
-        <div style={{ position: 'relative', width: 1920, height: '100%', margin: '0 auto' }}>
+        <div style={{ position: 'relative', width: '90%', height: '100%', margin: '0 auto' }}>
             <div className={styles.companyImg}>
                 {/* 画像をcompanyImgの枠内に表示 */}
                 <img
