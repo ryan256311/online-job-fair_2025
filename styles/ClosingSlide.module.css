@@ -11,21 +11,21 @@
 }
 
 .title {
-    font-size: 64px;
+    font-size: 3.2vw;
     font-weight: bold;
     color: #333;
     margin-bottom: 40px;
 }
 
 .appreciate {
-    font-size: 36px;
+    font-size: 3.00vw;
     font-weight: bold;
     color: #333;
     margin-bottom: 60px;
 }
 
 .bodyText {
-    font-size: 32px;
+    font-size: 2.66vw;
     color: #555;
     line-height: 1.8;
 }
@@ -42,27 +42,27 @@
 }
 
 .surveyTitle {
-    font-size: 36px;
+    font-size: 3.00vw;
     font-weight: bold;
     color: #E33C0B; /* 強調色 */
     margin: 0;
 }
 
 .surveyTitleEn {
-    font-size: 28px;
+    font-size: 2.33vw;
     color: #333;
     margin: 0;
     margin-top: -10px; /* 日本語タイトルとの間隔を詰める */
 }
 
 .qrCodePlaceholder {
-    width: 200px; /* 少し大きめに */
-    height: 200px;
+    width: 10vw; /* 少し大きめに */
+    height: 10vw;
     margin: 10px 0;
 }
 
 .surveyBody {
-    font-size: 24px;
+    font-size: 2.00vw;
     color: #555;
     margin: 0;
 }
